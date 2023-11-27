@@ -9,4 +9,4 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: !Sub '${MyBucket}'
+      BucketName: !Sub '${MyBucket}-XXXXX'
