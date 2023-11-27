@@ -1,0 +1,4 @@
+template-file-path: template.yaml
+parameters:
+  MyBucket: git-sync-test-sakasa
+tags: {}
