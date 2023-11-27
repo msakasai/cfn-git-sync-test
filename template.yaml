@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: 2010-09-09
+
+Parameters:
+  MyBucket:
+    Type: String
+    Description: S3 bucket name
+
+Resources:
+  S3Bucket:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketName: !Sub '${MyBucket}'
